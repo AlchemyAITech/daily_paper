@@ -1,0 +1,41 @@
+# Search config
+query: "iccv"
+id_list: []
+max_results: null
+# s_time="2023-8-15", e_time="2023-8-20"
+s_time: 2023-1-01
+e_time: 2023-8-31
+offset: 0
+
+# save config
+# pdf config
+save_root: 'G:\Atech\daily_paper\iccv-2023'
+save_pdf: true
+with_source: true
+
+# xlsx config
+save_xlsx: true
+xlsx_sorted: null
+xlsx_name: 'iccv-2023-01-01--2023-08-30'
+
+# markdown config
+save_markdown: true
+markdown_sorted: null
+markdown_name: 'iccv-2023-01-01--2023-08-30'
+
+# info config
+#   paper_id # 文章id
+#   paper_title # 文章标题
+#   paper_first_author # 文章的第一作者
+#   paper_all_author  # 文章的所有作者
+#   publish_time # 文章的发布时间
+#   update_time # 文章的更新时间
+#   paper_summary # 文章摘要
+#   paper_url # 文章url
+#   pdf_url # 文章对应 pdf url
+#   comment # 解释
+#   doi
+#   primary_category    # 文章主方向
+#   categories           # 文章涉及方向
+xlsx_list: ['paper_id', 'paper_title', 'primary_category', 'categories', 'paper_first_author', 'paper_all_author','publish_time', 'update_time', 'paper_summary', 'paper_url', 'pdf_url', 'comment']
+markdown_list: ['paper_title', 'paper_first_author','publish_time', 'categories', 'paper_summary', 'paper_url']
